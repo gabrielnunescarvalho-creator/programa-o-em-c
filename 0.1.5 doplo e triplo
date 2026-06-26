@@ -1,0 +1,12 @@
+
+#include <stdio.h>
+
+int main() {
+   int a; 
+   
+   printf("escreva um numero: "); 
+   scanf("%i", &a); 
+   printf("o doplo de %i e %i e o triplo de %i",a,a * 2, a * 3); 
+   
+    return 0;
+}
